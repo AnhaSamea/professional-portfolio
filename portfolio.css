@@ -1,32 +1,48 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
   margin: 0%;
 }
 .name {
   color: rgb(50, 166, 205);
 }
 section {
-  display: flex;
+    display: flex;
+  
 }
+
 .half-width {
-    width: 50%;
-    padding: 25px;
-    padding-left: 5%;
+  width: 50%;
+  padding: 25px;
+  padding-left: 5%;
+  text-align: justify;
 }
 .half-width img {
   width: 70%;
-  /* padding: 25px; */
+  padding: 25px;
   padding-left: 20%;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(rgb(114, 214, 254),rgb(11, 61, 77));
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(114, 214, 254), rgb(11, 61, 77));
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
-.top-banner{
-    background-image: url(image/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+   
+  background-image: url(image/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width2 img {
+  width: 70%;
+  /* padding: 25px; */
+  padding-right: 20%;
+}
+.half-width2 {
+  width: 50%;
+  padding: 25px;
+  padding-right: 5%;
+  text-align: justify;
 }
